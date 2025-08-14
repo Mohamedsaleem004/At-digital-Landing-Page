@@ -26,7 +26,7 @@ export default function Header() {
         <>
           <button className="nav-toggle" onClick={openToggle}>
             {isOpen ? (
-              <FaTimes size="40px" className="close-menu" />
+              <FaTimes size="40px" className="close-menu" color="#000000" />
             ) : (
               <FaBars size="40px" color="#ffffff" />
             )}
