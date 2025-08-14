@@ -29,7 +29,9 @@ export default function Main() {
       <div className="question-answer" key={index}>
         <div className="question-container">
           {" "}
-          <p>{question}</p>{" "}
+          <p style={{ color: newIndex === index ? "#4F46E5" : "#000000" }}>
+            {question}
+          </p>{" "}
           <button onClick={() => toggle(index)}>
             {newIndex === index ? "-" : "+"}
           </button>
